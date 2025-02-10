@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/api/example', (req: Request, res: Response) => {
-  res.status(200).json({ data: ' hello vips' });
+  res.status(200).json({ data: ' Hello node.js' });
 });
 
 app.use((req: Request, res: Response) => {
